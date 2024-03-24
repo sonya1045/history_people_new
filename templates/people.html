@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+
+
+
+    <h1><a href="https://uk.wikipedia.org/wiki/{{name}}" >{{ name }}</a></h1>
+
+    <p>{{ info }}</p>
+    <img src="{{ url_for('static',filename=photo)}}">
+    <a href="/start">назад</a>
+    
+
+
+
+
+
+</body>
+</html>

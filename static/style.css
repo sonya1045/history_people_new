@@ -1,0 +1,30 @@
+body {
+    /*background-color: rgb(152, 245, 217);*/
+    color: rgb(5, 66, 15); 
+    text-align: center;
+    background: linear-gradient(to bottom right, #36c5df, #46da21) no-repeat center center fixed;
+    /*background: url(../images/fon.jpg)no-repeat center center fixed;  */
+    background-size: 100% 300%;
+}
+
+p { 
+    font-size: 30px;
+    color: rgb(4, 24, 88)
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(4, 24, 88)
+}
+input{
+    border-radius: 10px;
+    size: 20px;
+    color:rgb(14, 97, 28)
+}
+button{
+    background-color: aqua;
+    border-radius: 20px;
+    border-color:rgb(14, 97, 28);
+    padding: 10px 32px;
+
+}
